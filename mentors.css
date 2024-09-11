@@ -1,0 +1,62 @@
+html {
+    overflow-y: scroll;
+}
+
+body{
+    color: white;
+    background-color: rgb(31, 31, 31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    color: #ffffff ;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: #005D9D;
+}
+
+.mentores {
+    padding: 30px;
+}
+
+.mentors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.mentor-card {
+    background-color: #005D9D;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.mentor-card h2 {
+    margin-top: 0;
+}
+
+.mentor-card p {
+    margin-bottom: 0;
+}
+
+main {
+    padding: 20px;
+}

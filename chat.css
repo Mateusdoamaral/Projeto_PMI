@@ -1,0 +1,63 @@
+html {
+    overflow-y: scroll;
+}
+
+body{
+    color: white;
+    background-color: rgb(31, 31, 31);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding: 0px 50px;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 8px;
+}
+.tablesemborda {
+    border: none;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+    color: #D6EEEE;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    }
+a:hover {
+    color: #005D9D;
+    background-color: transparent;
+    text-decoration: none;
+    }
+.divtreino {
+    text-align: center;
+    background-color:#005D9D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}        
+.mentor-card {
+    background-color: #005D9D;
+    padding: 5px;
+    border-radius: 8px;
+    width: 80%;
+}
